@@ -1,10 +1,9 @@
-package com.flores.development.shaded.logic.v2;
+package com.flores.development.shaded.logic.v3;
 
 import java.util.UUID;
 
 import com.flores.development.shaded.logic.ILogicExecution;
 import com.flores.development.shaded.logic.ISomeObject;
-import com.flores.development.shaded.models.SomeObject;
 
 import lombok.extern.slf4j.Slf4j;
 

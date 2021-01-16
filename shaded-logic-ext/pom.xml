@@ -2,28 +2,16 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
+	
 	<parent>
 		<groupId>com.flores.development</groupId>
 		<artifactId>maven-submodule-shaded</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<artifactId>shaded-logic-v1</artifactId>
+	
+	<artifactId>shaded-logic-ext</artifactId>
 
 	<dependencies>
-		<dependency>
-			<groupId>com.flores.development</groupId>
-			<artifactId>shaded-logic-ext</artifactId>
-			<version>${parent.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.flores.development</groupId>
-			<artifactId>shaded-models</artifactId>
-			<version>${parent.version}</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
@@ -35,5 +23,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 </project>

@@ -1,7 +1,8 @@
 package com.flores.development.shaded.models;
 
+import com.flores.development.shaded.logic.ISomeObject;
+
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
@@ -13,15 +14,14 @@ import lombok.Setter;
  * @author Jason
  */
 @Getter
-@NoArgsConstructor
 @RequiredArgsConstructor
-public class SomeObject {
+public class SomeObject implements ISomeObject {
 	
 	@Setter
 	private String propertyA;
 
 	@Setter
-	private int properyB;
+	private int propertyB;
 	
 	@NonNull @Getter
 	private String initProperty;

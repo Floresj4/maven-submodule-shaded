@@ -2,8 +2,6 @@ package com.flores.development.shaded.logic;
 
 import java.util.Optional;
 
-import com.flores.development.shaded.models.SomeObject;
-
 /**
  * Abstract class that logic versions should be base on.
  * @author Jason
@@ -16,7 +14,7 @@ public abstract class LogicComponent implements ILogicExecution {
 	 */
 	public abstract Optional<String> getVersion();
 	
-	public String execute(SomeObject something) {
+	public String execute(ISomeObject something) {
 		return something.getInitProperty()
 				+ getVersion().orElse("unknown")
 				+ something.getPropertyA();

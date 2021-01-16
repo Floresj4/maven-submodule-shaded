@@ -12,6 +12,8 @@
 	<modules>
 		<module>shaded-models</module>
 		<module>shaded-logic-v1</module>
+		<module>shaded-logic-v3</module>
+		<module>shaded-logic-ext</module>
 	</modules>
 
 	<properties>
