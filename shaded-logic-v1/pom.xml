@@ -11,4 +11,12 @@
 
 	<artifactId>shaded-logic-v1</artifactId>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.flores.development</groupId>
+			<artifactId>shaded-models</artifactId>
+			<version>${parent.version}</version>
+		</dependency>
+	</dependencies>
+
 </project>
