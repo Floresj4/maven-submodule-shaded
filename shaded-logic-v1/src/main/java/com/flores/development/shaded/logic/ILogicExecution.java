@@ -13,5 +13,5 @@ public interface ILogicExecution {
 	 * Execute some business logic
 	 * @param something to execute on
 	 */
-	public void execute(SomeObject something);
+	public String execute(SomeObject something);
 }
