@@ -5,7 +5,7 @@
 
 	<groupId>com.flores.development</groupId>
 	<artifactId>maven-submodule-shaded</artifactId>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -13,9 +13,11 @@
 		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
 
-	<dependencies>
-	</dependencies>
+	<dependencyManagement>
+	</dependencyManagement>
 
 	<build>
+		<pluginManagement>
+		</pluginManagement>
 	</build>
 </project>
