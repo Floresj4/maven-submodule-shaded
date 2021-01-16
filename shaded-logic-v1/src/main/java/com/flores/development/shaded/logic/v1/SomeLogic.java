@@ -1,18 +1,19 @@
 package com.flores.development.shaded.logic.v1;
 
-import com.flores.development.shaded.logic.ILogicExecution;
-import com.flores.development.shaded.models.SomeObject;
+import static java.util.Optional.of;
+
+import java.util.Optional;
+
+import com.flores.development.shaded.logic.LogicComponent;
 
 /**
  * Demostrate the use of the models submodule th
  * @author Jason
  */
-public class SomeLogic implements ILogicExecution {
+public class SomeLogic extends LogicComponent {
 
 	@Override
-	public String execute(SomeObject something) {
-		return something.getInitProperty()
-				+ "v1"
-				+ something.getPropertyA();
+	public Optional<String> getVersion() {
+		return of("v1");
 	}
 }
